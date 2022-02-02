@@ -44,4 +44,15 @@ for x in greeting2:
 for y in "hola":
     print(y)
 
+#Check to see if a char or a series of chars exists within a string, true or false. 
+greeting3 = "Hello"
+if 'e' in greeting3:
+    print('yes')
+else:
+    print('no')
+
+#Removing whitespace
+my_string6 = '     hello world'
+my_string6 = my_string6.strip() #This is what will strip the string of the whitespace but it needs to be reassigned doing only my_string6.strip() won't work as strings are not mutable. 
+print(my_string6)
     
